@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>A university is an institution of higher (or tertiary) education and research which awards academic degrees<br> in several academic disciplines. </p>
+        <a href=""class="hero-btn">Visit Us To Know More</a></div>
+
+    </section>
+    <!---Course--->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <iframe src="https://www.unom.ac.in/" height="200" width="300" title="Explore"></iframe>
+        <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Discover the best universities worldwide - study abroad guides, upcoming events, scholarships, careers advice & latest QS rankings at TopUniversities</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Discover the best universities worldwide - study abroad guides, upcoming events, scholarships, careers advice & latest QS rankings at TopUniversities</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Discover the best universities worldwide - study abroad guides, upcoming events, scholarships, careers advice & latest QS rankings at TopUniversities</p>
+        </div>
+        </div>
+
+    </section>
+    <!---campus--->
+    <section>
+        <section class="campus">
+            <h1>Our Global campus</h1>
+            <p>The University of Madras is a post- sesquicentennial institution which has forged a glorious path for itself and has been the site</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="pexels-pixabay-207684.jpg">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="pexels-laura-paredis-13517792.jpg">
+                        <div class="layer">
+                            <h3>NEW YORK</h3>
+                        </div>
+                        <div class="row">
+                            <div class="campus-col">
+                                <img src="pexels-vlad-chețan-3195646.jpg">
+                                <div class="layer">
+                                    <h3>WASHINGTON</h3>
+                                </div>
+            </div>
+        </div></section>
+    </section>
+    <!---call to action---->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br>Anywhere from The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    <!---footer-->
+    <section class="footer">
+    <h4>About Us</h4>
+    <p>This University was named after Late Dr.C.N.Annadurai, former Chief Minister of Tamil Nadu. <br>It offers higher education in Engineering.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+     <p> Made with <i class="fa fa-heart-o"></i> Legends </p>
+    </section>
+    <!---Javascript for Toggle Menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+
+    }
+</script>
+
+</body>
+</html>
